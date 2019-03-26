@@ -19,7 +19,7 @@ Things you may want to cover:
 
 * Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+* Deployment instructions    
 
 * ...
 
@@ -27,4 +27,4 @@ Things you may want to cover:
 running on rails 5.2.2 to create this project.  
 on `rails s` come with issue 
 
-⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
+* solve this by `gem 'sqlite3'` => `gem 'sqlite3', '< 1.4'` in the gem file 
