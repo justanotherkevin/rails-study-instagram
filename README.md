@@ -51,3 +51,9 @@ create the routes for pics and the root route
 resources :pics
 root "pics#index"
 ```  
+
+add new and create for Pic controller  
+create view pic#new  
+
+install/generate simple_form with bootstrap  
+
