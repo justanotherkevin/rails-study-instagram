@@ -26,7 +26,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'haml', '~> 5.0', '>= 5.0.4'
 gem 'simple_form', '~> 4.1'
 gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
-
+gem 'byebug'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
@@ -44,6 +44,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'rb-readline'
 end
 
 group :development do
