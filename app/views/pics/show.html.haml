@@ -2,6 +2,7 @@
 
 %h3= @pic.title
 %p= @pic.description
+%p= "pic by #{@pic.user.email}"
 = link_to('Edit', edit_pic_path)
 = link_to('Delete', pic_path, method: :delete, data: {confirm: "are you sure"} )
 = link_to('All pics', pics_path)

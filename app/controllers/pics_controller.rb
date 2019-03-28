@@ -8,10 +8,10 @@ class PicsController < ApplicationController
         @pic = Pic.find(params[:id])
     end
     def new 
-        @pic = Pic.new
+        @pic = current_user.pics.build
     end
     def create 
-        @pic = Pic.new(pic_params)
+        @pic = current_user.pics.build(pic_params)
         if @pic.save 
             flash[:notice] = "Picture was posted"
             redirect_to @pic
